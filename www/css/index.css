@@ -1,0 +1,84 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+body {
+  margin: 0;
+}
+* html body {
+  overflow: hidden;
+}
+form {
+  padding: 100px 10px 0px 30px;
+}
+li{
+  padding: 0px 20px 0px 30px;
+}
+p{
+  padding: 0px 20px 0px 30px;
+}
+a.rank{
+  padding: 0px 10px 0px 30px;
+}
+div#headerArea {
+  position: fixed !important;
+  position: absolute;
+  padding: 0.5em 0 0.3em 1em;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  /*border-left: 10px solid #00008B;*/
+  background-color: #4E9ABE;
+  color: #fff;
+}
+div#footerArea {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #4E9ABE;
+  color: #fff;
+}
+* html div#contentsArea {
+  height: 100%;
+  overflow: auto;
+}
+
+/* h2タグのデザイン設定 */
+
+h2 {
+  margin: 1.5em 0;
+  padding: 0.5em 0 0.3em 1em;
+  /*background: #4E9ABE;*/
+  font-size: 130%;
+  font-weight: bold;
+  /*color: #FFFFFF;*/
+}
+input {
+	background: #4E9ABE;
+	border: 1px solid #DDD;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	color: #FFFFFF;
+  font-size: 100%;
+  font-weight: bold;
+	width: 100px;
+	padding: 10px 0;
+}
